@@ -1,0 +1,226 @@
+# Objective
+
+I want to build a multi-chain retail business specializing in hair accessories, cosmetics, makeup products, imitation jewellery, styling items, and related fashion accessories in Indore, Madhya Pradesh, India.
+
+I plan to start with a single outlet in one target market within Indore and gradually expand to multiple outlets across the city. Therefore, I want to select software that not only works well for a single store today but can also scale efficiently into a multi-store retail operation in the future.
+
+# Background
+
+* I am a software engineer working a full-time job.
+* I have a good understanding of software deployment and infrastructure.
+* I can self-host applications on my own servers or deploy them on cloud platforms if required.
+* Since I am in the early stages of the business, I want to minimize recurring costs and preferably use free or open-source solutions.
+
+# Business Model
+
+* All products will be sold at a fixed selling price of ₹30 per item.
+* The same product may be procured from different suppliers at different purchase prices.
+* The software should therefore support:
+
+  * Multiple purchase costs for the same SKU/product.
+  * Fixed selling prices.
+  * Accurate profit and margin calculations despite varying procurement costs.
+  * Inventory valuation methods (FIFO, weighted average, etc.) and explain how margins are calculated.
+
+# Functional Requirements
+
+## Point of Sale (POS)
+
+The software should support:
+
+* Fast billing and invoice generation.
+* GST-compliant invoices suitable for Indian businesses.
+* Returns and exchanges.
+* Discounts (if required in future).
+* Cash and digital payment methods.
+* Daily sales closing and reconciliation.
+
+## Inventory Management
+
+The software should provide:
+
+* Real-time inventory tracking.
+* Stock inward and outward management.
+* Purchase order management.
+* Supplier management.
+* Stock transfers between outlets.
+* Inventory adjustments.
+* Low-stock alerts.
+* Dead stock identification.
+
+## Multi-Outlet Capability
+
+Although I will initially start with one outlet, the software should support future expansion by providing:
+
+* Centralized management of multiple stores.
+* Outlet-wise stock visibility.
+* Outlet-wise sales reporting.
+* Inter-store inventory transfers.
+* Centralized product catalog management.
+* Role-based access control for different store staff.
+
+## Barcode Support
+
+Barcode functionality is extremely important.
+
+The software should support:
+
+* Barcode generation for products.
+* Barcode label printing.
+* Barcode scanning during billing.
+* Barcode scanning for stock audits and inventory updates.
+* Compatibility with mobile cameras as barcode scanners, if possible.
+
+# Reporting and Analytics
+
+I want strong reporting capabilities to help me make data-driven decisions.
+
+The software should provide reports and dashboards for:
+
+* Daily, weekly, monthly, quarterly, and yearly sales.
+* Gross profit and margin analysis.
+* Outlet-wise profitability.
+* Fast-moving products.
+* Slow-moving products.
+* Dead stock analysis.
+* Category-wise performance.
+* Supplier-wise purchase analysis.
+* Inventory aging reports.
+* Top-selling and least-selling products across customizable date ranges.
+
+# Mobile-First Operations
+
+Store space will be limited, and I prefer lightweight operations.
+
+Therefore, mobile support is highly desirable.
+
+The ideal solution should offer:
+
+* Responsive web interfaces that work well on tablets and smartphones, or
+* Dedicated Android/iOS applications.
+
+The goal is to operate the store without relying heavily on traditional desktop setups and bulky POS hardware.
+
+# Technical Preferences
+
+Please prioritize solutions in the following order:
+
+1. Fully open-source and self-hostable solutions.
+2. Open-core solutions with free community editions.
+3. Low-cost SaaS solutions if open-source options do not adequately meet requirements.
+
+For each recommended solution, include:
+
+* Licensing model.
+* Hosting options (self-hosted vs cloud).
+* Estimated setup complexity.
+* Mobile support.
+* Barcode capabilities.
+* Multi-store support.
+* Reporting and analytics capabilities.
+* Indian GST readiness.
+* Hardware requirements.
+* Expected costs (one-time and recurring).
+* Community size and long-term viability.
+
+# Deliverables
+
+Please conduct a detailed comparison and provide:
+
+1. The top 5–10 software options that best match these requirements.
+2. A feature comparison matrix.
+3. Pros and cons of each option.
+4. Recommendations for:
+
+   * The best option for a single-store startup with near-zero software costs.
+   * The best option for scaling into a multi-outlet chain.
+   * The best balance between ease of use and flexibility.
+5. Suggested implementation roadmap:
+
+   * Phase 1: One-store setup.
+   * Phase 2: Expansion to multiple outlets within Indore.
+   * Phase 3: Future expansion beyond the city.
+6. Any gaps where custom development may be required and whether building custom modules would be worthwhile given my software engineering background.
+
+The goal is to identify an affordable, scalable retail software stack that allows me to start lean today while supporting the future growth of a multi-chain retail business.
+
+# Research Methodology Requirements
+
+Do not limit the analysis to commercially marketed software or projects that frequently appear in blogs, YouTube videos, SEO articles, or "Top 10 POS Software" lists.
+
+Many high-quality open-source solutions exist only as GitHub repositories with active communities but little public marketing. Since I have the technical capability to evaluate and deploy such systems, I want the research to uncover these hidden options as well.
+
+The evaluation should therefore include both:
+
+* Well-known open-source retail/POS solutions that are commonly recommended.
+* Lesser-known GitHub-hosted projects that may not have commercial backing but provide strong functionality.
+
+The objective is to leave no viable option unexplored.
+
+# Open Source Discovery Process
+
+Please perform a broad and systematic search using multiple sources, including:
+
+* GitHub repositories.
+* GitLab repositories.
+* Open-source directories and catalogs.
+* Developer communities.
+* Reddit discussions and user experiences.
+* Hacker News discussions.
+* Technical blogs.
+* Official project websites.
+* Documentation portals.
+
+Avoid relying solely on search engine rankings or sponsored content.
+
+# Repository Evaluation Criteria
+
+For repository-based solutions, assess their health and maturity using objective indicators such as:
+
+## Development Activity
+
+* Date of the most recent commit.
+* Commit frequency over the last 12–24 months.
+* Number of contributors.
+* Responsiveness to issues and pull requests.
+* Release frequency.
+
+## Community Adoption
+
+* GitHub stars and forks.
+* Number of open versus closed issues.
+* Community discussions and user feedback.
+* Presence of implementation examples or deployment guides.
+
+## Production Readiness
+
+Determine whether the project appears suitable for real business usage by evaluating:
+
+* Stability of releases.
+* Availability of installation documentation.
+* Upgrade and migration support.
+* Backup and restore capabilities.
+* Security practices.
+* Authentication and authorization features.
+* Role-based access controls.
+* Data export/import functionality.
+
+## Long-Term Sustainability
+
+Estimate the likelihood that the project will remain usable over the next 3–5 years by considering:
+
+* Whether it is maintained by individuals, organizations, or companies.
+* Community size.
+* Bus factor (risk of dependency on a single maintainer).
+* Availability of forks or alternative maintainers.
+
+# Hidden Gems Section
+
+Include a dedicated section titled "Hidden Gems" that highlights promising repository-driven solutions that may not yet be mainstream but deserve consideration based on their technical merits.
+
+For each hidden gem, explain:
+
+* Why it was selected.
+* What requirements it satisfies.
+* What risks exist.
+* Whether it would be suitable for a technically capable founder willing to self-host and customize the software.
